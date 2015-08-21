@@ -1,0 +1,3 @@
+FROM kyma/docker-nginx
+ADD Xmen_merch/ /var/www
+CMD 'nginx'
